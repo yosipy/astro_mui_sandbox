@@ -12,11 +12,16 @@
   "dependencies": {
     "@astrojs/check": "^0.8.1",
     "@astrojs/react": "^3.6.0",
+    "@mui/material": "^6.0.0-beta.0",
+    "@mui/material-pigment-css": "^6.0.0-beta.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "astro": "^4.11.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@pigment-css/vite-plugin": "^0.0.17"
   }
 }
