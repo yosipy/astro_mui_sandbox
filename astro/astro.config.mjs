@@ -1,9 +1,10 @@
-import { defineConfig } from "astro/config";
-import { pigment } from "@pigment-css/vite-plugin";
+import { defineConfig } from "astro/config"
+import { pigment } from "@pigment-css/vite-plugin"
+import { extendTheme } from "@mui/material"
 
-import react from "@astrojs/react";
+import react from "@astrojs/react"
 
-const pigmentConfig = {};
+const pigmentConfig = { theme: extendTheme() }
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,4 +12,4 @@ export default defineConfig({
   vite: {
     plugins: [pigment(pigmentConfig)],
   },
-});
+})
