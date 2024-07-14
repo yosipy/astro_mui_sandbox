@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    # command: >
-    #   firebase emulators:exec "cd hostings/web && npm run dev -- --host 0.0.0.0" --import data --export-on-exit --project yosidev-staging
+    command: >
+      npm run dev -- --host=0.0.0.0
     working_dir: /app
     ports:
       - 4321:4321 # astro
