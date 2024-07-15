@@ -26,6 +26,9 @@ const theme = extendTheme({
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  optimizeDeps: {
+    include: ["prop-types", "react-is"],
+  },
   plugins: [
     pigment({
       theme,
