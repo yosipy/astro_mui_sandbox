@@ -9,12 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@pigment-css/react": "latest",
+    "@pigment-css/react": "0.0.17",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
-    "@pigment-css/vite-plugin": "latest",
+    "@pigment-css/vite-plugin": "0.0.17",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@vitejs/plugin-react": "latest",
